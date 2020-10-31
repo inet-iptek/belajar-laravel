@@ -79,9 +79,10 @@
                 </div>
             @endif
 
+
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    iNET
                 </div>
 
                 <div class="links">
