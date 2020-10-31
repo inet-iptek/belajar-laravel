@@ -7,6 +7,11 @@ use Illuminate\Http\Request;
 class HomeController extends Controller
 {
     public function index() {
-        return "Hello World";
+
+        return "Hello World : ";
+    }
+
+    public function about($nama) {
+        return "Nama Saya ".$nama;
     }
 }
