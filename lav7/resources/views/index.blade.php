@@ -7,8 +7,10 @@
     <title>Belajar Laravel</title>
 </head>
 <body>
+    <h1>{{ $title }}</h1>
+
     <a href="{{ route('about') }}">About</a>
-    <h1>Hello World</h1>
+    <h1>Hello, My Name is {{ $nama }}</h1>
 
 </body>
 </html>
