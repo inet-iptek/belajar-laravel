@@ -1,4 +1,4 @@
 @extends('layout.app')
 @section('content')
-<h1>{{ $title }}</h1>
+<h1>Hello, My Name is {{ $nama }}</h1>
 @endsection

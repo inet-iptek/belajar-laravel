@@ -14,7 +14,8 @@ class HomeController extends Controller
     }
 
     public function about() {
-        $nama = "Reno";
-        return "Nama Saya ".$nama;
+        $data['title'] = "Home";
+        $data['nama'] = "Arhi";
+        return view('about', $data);
     }
 }
