@@ -13,6 +13,10 @@ class HomeController extends Controller
         return view('index', $data);
     }
 
+    public function student() {
+        return view('student');
+    }
+
     public function about() {
         $data['title'] = "About";
         $data['nama'] = "Arhi";
